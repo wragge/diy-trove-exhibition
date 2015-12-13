@@ -8,6 +8,12 @@ http://wragge.github.io/forecasters-demo/
 
 Before you get started you'll need to have some Trove lists ready to provide the content for your exhibition. [Trove lists](http://help.nla.gov.au/trove/using-trove/creating-contributing/lists) are just collections of items found on Trove -- they're easy to create, manage, and edit.
 
+The demo above uses three lists:
+
+* [A day in the life of Mr Mares, weatherman](http://trove.nla.gov.au/list?id=43805)
+* [Clement Wragge](http://trove.nla.gov.au/list?id=83777)
+* [Inigo Jones](http://trove.nla.gov.au/list?id=83774)
+
 You could create an exhibition with just one list, but it's probably better to divide your content between a number of lists. Each list is displayed as a 'topic' in the exhibition.
 
 Once you have your lists, just follow the [quickstart](#quickstart) instructions below!
