@@ -1,14 +1,18 @@
 # DIY Trove Exhibition
 
-With nothing more than Trove and a GitHub account you can create your own online exhibition in under five minutes!
+With nothing more than [Trove](http://trove.nla.gov.au) and a GitHub account you can create your own online exhibition in under five minutes!
+
+See a live exhibition using this repository here:
+
+http://wragge.github.io/forecasters-demo/
 
 Before you get started you'll need to have some Trove lists ready to provide the content for your exhibition. [Trove lists](http://help.nla.gov.au/trove/using-trove/creating-contributing/lists) are just collections of items found on Trove -- they're easy to create, manage, and edit.
 
 You could create an exhibition with just one list, but it's probably better to divide your content between a number of lists. Each list is displayed as a 'topic' in the exhibition.
 
-Once you have your lists, just follow the quickstart instructions below!
+Once you have your lists, just follow the [quickstart](#quickstart) instructions below!
 
-## The quickstart version
+## Quickstart
 
 1. Get yourself a [GitHub](https://github.com) account (the free version is fine) and log in.
 2. Get yourself a [Trove API key](http://help.nla.gov.au/trove/building-with-trove/api).
@@ -17,7 +21,7 @@ Once you have your lists, just follow the quickstart instructions below!
 4. Click on the 'Settings' tab and change the repository name to suit your exhibition.
 5. Click on the 'Code' tab and then on the `index.html` file to open it.
 6. Click on the pencil icon to edit the file.
-7. Look for the 'EDIT THIS SECTION TO INCLUDE YOUR EXHIBITION DETAILS' message in the `index.html` file and add the details of your exhibition as described in the customisation section below.
+7. Look for the 'EDIT THIS SECTION TO INCLUDE YOUR EXHIBITION DETAILS' message in the `index.html` file and add the details of your exhibition as described in the [customisation section](#customisation-guide) below.
 8. Click on the 'Commit changes' button to save your details.
 9. That's it! Your hew exhibition will be available at the address -- http://[your Github user name].github.io/[your repository name]
 
