@@ -1,0 +1,144 @@
+.center-cropped {
+  object-fit: cover;
+  object-position: center;
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+}
+.center-cropped-large {
+  object-fit: scale-down;
+  object-position: center;
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+}
+
+.center-cropped img {
+    
+}
+
+footer {
+  border-top: 1px solid #dfd7ca; /* Match to navbar border */
+  margin-top: 40px;
+  padding: 20px 0 40px 0;
+}
+
+.newspaper-text {
+  background-color: #f8f5f0; /* Match to thumbnail background */
+  border: 1px solid #dfd7ca; /* Match to thumbnail border*/
+  border-radius: 4px;
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif; /* Match to serif font*/
+}
+
+.tile-text { color: #fff;}
+
+.blank-icon{
+    display:inline-block;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.items-filter {
+  padding: 20px
+}
+
+.loading {
+  text-align: center;
+  vertical-align: bottom;
+  height: 300px;
+  padding-top: 50px;
+}
+
+.loading.ng-enter {
+  -webkit-animation: 0.5s fade-in;
+  -moz-animation: 0.5s fade-in;
+  -o-animation: 0.5s fade-in;
+  animation: 0.5s fade-in;
+  z-index: 100;
+}
+
+.loading.ng-leave {
+  -webkit-animation: 0.5s fade-out;
+  -moz-animation: 0.5s fade-out;
+  -o-animation: 0.5s fade-out;
+  animation: 0.5s fade-out;
+  z-index:99;
+}
+
+.view-container {
+  position: relative;
+  min-height: 400px;
+}
+
+.view-frame.ng-enter, .view-frame.ng-leave {
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.view-frame.ng-enter {
+  -webkit-animation: 0.5s fade-in;
+  -moz-animation: 0.5s fade-in;
+  -o-animation: 0.5s fade-in;
+  animation: 0.5s fade-in;
+  z-index: 100;
+}
+
+.view-frame.ng-leave {
+  -webkit-animation: 0.5s fade-out;
+  -moz-animation: 0.5s fade-out;
+  -o-animation: 0.5s fade-out;
+  animation: 0.5s fade-out;
+  z-index:99;
+}
+
+.item-listing.ng-enter {
+  -webkit-animation: 0.5s fade-in;
+  -moz-animation: 0.5s fade-in;
+  -o-animation: 0.5s fade-in;
+  animation: 0.5s fade-in;
+  z-index: 100;
+}
+
+.item-listing.ng-leave {
+  -webkit-animation: 0.5s fade-out;
+  -moz-animation: 0.5s fade-out;
+  -o-animation: 0.5s fade-out;
+  animation: 0.5s fade-out;
+  z-index:99;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@-moz-keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@-webkit-keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+@-moz-keyframes fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+@-webkit-keyframes fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+

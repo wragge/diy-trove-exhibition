@@ -1,0 +1,100 @@
+<!doctype html>
+<html ng-app="trovelistsApp" ng-controller="BaseCtrl">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ exhibition }} -- {{ tagline }}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/theme.css">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class="header">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#/">{{ exhibition }}</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="js-navbar-collapse">
+
+            <ul class="nav navbar-nav">
+              <li ng-class="{ active: isActive('/') }"><a href="#/">Home</a></li>
+              <li ng-class="{ active: isActive('/topics/') }"><a ng-href="#/topics/">Topics</a></li>
+              <li ng-class="{ active: isActive('/resources/') }"><a ng-href="#/resources/">Resources</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- EDIT THIS SECTION TO INCLUDE YOUR EXHIBITION DETAILS -->
+      <h1 ng-hide="listHide" class="ng-hide" id="exhibition-name" class="page-header">Forecasters</h1>
+      <h2 ng-hide="listHide" class="ng-hide" id="exhibition-tagline">An assortment of weather prophets</h2>
+      <div ng-hide="listHide" class="ng-hide" id="exhibition-description">
+        <p>This site displays content from Trove. It is a demonstration of how resources collected using <a href="http://help.nla.gov.au/trove/using-trove/creating-contributing/lists">Trove lists</a> can be reused through the <a href="http://help.nla.gov.au/trove/building-with-trove">Trove API</a> to create new interfaces and applications.</p>
+      </div>
+      <div ng-hide="listHide" class="ng-hide" id="exhibition-credit">
+        <p><small>This demonstration was created by <a href="http://discontents.com.au/about-me">Tim Sherratt</a> (<a href="http://twitter.com/wragge">@wragge</a>) to show how easy it is to create your own exhibition.</small></p>
+      </div>
+      <ul ng-hide="listHide" class="ng-hide" id="lists">
+        <!-- CHANGE THIS TO LIST THE TROVE LISTS THAT MAKE UP YOUR EXHIBITION -->
+        <li><a class="list-link" href="http://trove.nla.gov.au/list?id=43805">A day in the life of Mr Mares, weatherman</a></li>
+        <li><a class="list-link" href="http://trove.nla.gov.au/list?id=83777">Clement Wragge</a></li>
+        <li><a class="list-link" href="http://trove.nla.gov.au/list?id=83774">Inigo Jones</a></li>
+      </ul>
+      <script>
+        // ADD YOUR TROVE API KEY
+        var troveAPIKey = "";
+        var config = {};
+        config.directLinks = true;
+        config.showGrid = false;
+      </script>
+      <!-- END OF YOUR DETAILS -->
+
+      <div class="view-container">
+        <div ng-view="" class="view-frame"></div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container text-muted">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>About this exhibition</h5>
+            <div ng-bind-html="credit"></div>
+          </div>
+          <div class="col-md-4 col-md-offset-2">
+            <img src="images/trove_logo.png" class="pull-right">
+            <h5>Powered by <a href="http://trove.nla.gov.au">Trove</a></h5>
+            <p><small><a href="https://github.com/wragge/trove-lists-exhibition">Create your own exhibitions</a> using Trove lists.</small></p>
+            <p></p>
+          </div>
+      </div>
+    </footer>
+
+
+
+    <script src="scripts/vendor.207ba23b.js"></script>
+
+        <script src="scripts/scripts.47957d13.js"></script>
+</body>
+</html>
