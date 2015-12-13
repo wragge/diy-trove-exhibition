@@ -2,6 +2,12 @@
 
 With nothing more than Trove and a GitHub account you can create your own online exhibition in under five minutes!
 
+Before you get started you'll need to have some Trove lists ready to provide the content for your exhibition. [Trove lists](http://help.nla.gov.au/trove/using-trove/creating-contributing/lists) are just collections of items found on Trove -- they're easy to create, manage, and edit.
+
+You could create an exhibition with just one list, but it's probably better to divide your content between a number of lists. Each list is displayed as a 'topic' in the exhibition.
+
+Once you have your lists, just follow the quickstart instructions below!
+
 ## The quickstart version
 
 1. Get yourself a [GitHub](https://github.com) account (the free version is fine) and log in.
@@ -110,6 +116,8 @@ The style is of course responsive by default, so it should look good on mobile d
 ## More advanced customisation
 
 It's possible to [set up a custom domain](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) to use for your exhibition.
+
+Of course you don't have to use GitHub to host your exhibition. You can just copy the contents of your repository to any old webserver and it will just work.
 
 If you want to change the page layout or navigation then you'll need to grab the [full code repository](https://github.com/wragge/trove-lists-exhibition) and set up your local development environment using [Node](https://github.com/wragge/trove-lists-exhibition), [Grunt](http://gruntjs.com), and [AngularJS](https://angularjs.org). 
 
