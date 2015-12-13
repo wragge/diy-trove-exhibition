@@ -94,6 +94,23 @@ var troveAPIKey = "";
 
 Simply insert your Trove API key between the quotes.
 
-## Customising your exhibition's style
+## Changing the look of your exhibition
+
+By default your exhibition will be styled using [Bootstrap](http://getbootstrap.com) and a slightly modified version of the [Sandstone Bootswatch theme](https://bootswatch.com/sandstone/). The style information is contained within two files: 
+
+* `theme.css` -- includes all the basic Bootstrap stuff
+* `style.css` -- a few extra customisations for the exhibition
+
+If you're feeling brave you can dive in and edit `theme.css` to change things like colours and fonts. However, it's probably easier to use a site like the [Bootstrap Live Customiser](http://bootstrap-live-customizer.com) to create your own theme. You can start with the basic Bootstrap style or build on one of the [Bootswatch](https://bootswatch.com/) themes. Once you've created your own custom theme, simply copy the CSS code into the `theme.css` file in your repository and commit the changes.
+
+You'll probably also want to tweak `style.css` to match your custom theme.
+
+The style is of course responsive by default, so it should look good on mobile devices. Try swiping one of the item pages!
+
+## More advanced customisation
+
+It's possible to [set up a custom domain](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) to use for your exhibition.
+
+If you want to change the page layout or navigation then you'll need to grab the [full code repository](https://github.com/wragge/trove-lists-exhibition) and set up your local development environment using [Node](https://github.com/wragge/trove-lists-exhibition), [Grunt](http://gruntjs.com), and [AngularJS](https://angularjs.org). 
 
 
