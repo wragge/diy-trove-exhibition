@@ -21,9 +21,9 @@ Once you have your lists, just follow the [quickstart](#quickstart) instructions
 4. Click on the 'Settings' tab and change the repository name to suit your exhibition.
 5. Click on the 'Code' tab and then on the `index.html` file to open it.
 6. Click on the pencil icon to edit the file.
-7. Look for the 'EDIT THIS SECTION TO INCLUDE YOUR EXHIBITION DETAILS' message in the `index.html` file and add the details of your exhibition as described in the [customisation section](#customisation-guide) below.
+7. Look for the **'EDIT THIS SECTION TO INCLUDE YOUR EXHIBITION DETAILS'** message in the `index.html` file and add the details of your exhibition as described in the [customisation section](#customisation-guide) below.
 8. Click on the 'Commit changes' button to save your details.
-9. That's it! Your hew exhibition will be available at the address -- http://[your Github user name].github.io/[your repository name]. For example, my user account is 'wragge' and I created a version of this repository called 'forecasters-demo', so you can find it online at http://wragge.github.io/forecasters-demo/ .
+9. That's it! Your hew exhibition will be available at the address -- http://**[your Github user name]**.github.io/**[your repository name]**. For example, my user account is 'wragge' and I created a version of this repository called 'forecasters-demo', so you can find it online at http://wragge.github.io/forecasters-demo/ .
 
 ## Customisation guide
 
