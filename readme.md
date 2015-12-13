@@ -1,6 +1,6 @@
 # DIY Trove Exhibition
 
-With nothing more than [Trove](http://trove.nla.gov.au) and a GitHub account you can create your own online exhibition in under five minutes!
+**With nothing more than [Trove](http://trove.nla.gov.au) and a GitHub account you can create your own online exhibition in minutes!**
 
 See a live exhibition using this repository here:
 
@@ -23,7 +23,7 @@ Once you have your lists, just follow the [quickstart](#quickstart) instructions
 6. Click on the pencil icon to edit the file.
 7. Look for the 'EDIT THIS SECTION TO INCLUDE YOUR EXHIBITION DETAILS' message in the `index.html` file and add the details of your exhibition as described in the [customisation section](#customisation-guide) below.
 8. Click on the 'Commit changes' button to save your details.
-9. That's it! Your hew exhibition will be available at the address -- http://[your Github user name].github.io/[your repository name]
+9. That's it! Your hew exhibition will be available at the address -- http://[your Github user name].github.io/[your repository name]. For example, my user account is 'wragge' and I created a version of this repository called 'forecasters-demo', so you can find it online at http://wragge.github.io/forecasters-demo/ .
 
 ## Customisation guide
 
