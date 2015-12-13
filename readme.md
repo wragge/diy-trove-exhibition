@@ -28,7 +28,7 @@ There are samples of each of these (except the API key) in the `index.html` file
 
 This is the element that contains the exhibition name:
 
-```
+```html
 <h1 ng-hide="listHide" class="ng-hide" id="exhibition-name" class="page-header">Forecasters</h1>
 ```
 
@@ -36,7 +36,7 @@ Obviously you should change 'Forecasters' to the name of your exhibition, but le
 
 This is the element that contains the exhibition tagline:
 
-```
+```html
 <h2 ng-hide="listHide" class="ng-hide" id="exhibition-tagline">An assortment of weather prophets</h2>
 ```
 
@@ -44,7 +44,7 @@ As above, just change the text but leave the rest of the tag and its attributes 
 
 The exhibition description is a little different:
 
-```
+```html
 <div ng-hide="listHide" class="ng-hide" id="exhibition-description">
     <p>This site displays content from Trove. It is a demonstration of how resources collected using <a href="http://help.nla.gov.au/trove/using-trove/creating-contributing/lists">Trove lists</a> can be reused through the <a href="http://help.nla.gov.au/trove/building-with-trove">Trove API</a> to create new interfaces and applications.</p>
 </div>
@@ -55,7 +55,7 @@ Leave the `<div></div>` tags alone, but in between them you can include whatever
 
 The exhibition credit is similar:
 
-```
+```html
 <div ng-hide="listHide" class="ng-hide" id="exhibition-credit">
     <p><small>This demonstration was created by <a href="http://discontents.com.au/about-me">Tim Sherratt</a> (<a href="http://twitter.com/wragge">@wragge</a>) to show how easy it is to create your own exhibition.</small></p>
 </div>
@@ -65,7 +65,7 @@ You can change anything between the `<div></div>` tags, but to keep the formatti
 
 The list of lists is the most important thing you need to customise, without it your exhibition will have no content! Here's the example version:
 
-```
+```html
 <ul ng-hide="listHide" class="ng-hide" id="lists">
     <!-- CHANGE THIS TO LIST THE TROVE LISTS THAT MAKE UP YOUR EXHIBITION -->
     <li><a class="list-link" href="http://trove.nla.gov.au/list?id=43805">A day in the life of Mr Mares, weatherman</a></li>
@@ -77,7 +77,7 @@ The list of lists is the most important thing you need to customise, without it 
 
 You'll see there are three Trove lists linked here. Each one looks like this:
 
-```
+```html
 <li><a class="list-link" href="http://trove.nla.gov.au/list?id=43805">A day in the life of Mr Mares, weatherman</a></li>
 
 ```
@@ -86,7 +86,7 @@ For each of your lists you need to add an `<li></li>` tag just like this. The `h
 
 Finally, find the line that says:
 
-```
+```javascript
 var troveAPIKey = "";
 ```
 
