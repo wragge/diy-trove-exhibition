@@ -1,10 +1,12 @@
 # DIY Trove Exhibition
 
+With nothing more than Trove and a GitHub account you can create your own online exhibition in under five minutes!
+
 ## The quickstart version
 
-1. Get yourself a GitHub account (the free version is fine).
-2. Get yourself a Trove API key.
-2. Come back to this page and click on the 'Fork' button. Follow the instructions to save a copy of this repository under your own account.
+1. Get yourself a [GitHub](https://github.com) account (the free version is fine) and log in.
+2. Get yourself a [Trove API key](http://help.nla.gov.au/trove/building-with-trove/api).
+2. Come back to this page and click on the 'Fork' button (in the top right hand corner of the page) to save a copy of this repository under your own account. [More about forking](https://help.github.com/articles/fork-a-repo/).
 3. Go to your account and view the repository you've just created. It will look just like this one!
 4. Click on the 'Settings' tab and change the repository name to suit your exhibition.
 5. Click on the 'Code' tab and then on the `index.html` file to open it.
