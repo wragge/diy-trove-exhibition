@@ -112,7 +112,7 @@ Simply insert your Trove API key between the quotes.
 
 ## Changing the look of your exhibition
 
-By default your exhibition will be styled using [Bootstrap](http://getbootstrap.com) and a slightly modified version of the [Sandstone Bootswatch theme](https://bootswatch.com/sandstone/). The style information is contained within two files: 
+By default your exhibition will be styled using [Bootstrap](http://getbootstrap.com) and a slightly modified version of the [Sandstone Bootswatch theme](https://bootswatch.com/sandstone/). The style information is contained within two files in the `styles` directory: 
 
 * `theme.css` -- includes all the basic Bootstrap stuff
 * `style.css` -- a few extra customisations for the exhibition
