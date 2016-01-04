@@ -131,4 +131,10 @@ Of course you don't have to use GitHub to host your exhibition. You can just cop
 
 If you want to change the page layout or navigation then you'll need to grab the [full code repository](https://github.com/wragge/trove-lists-exhibition) and set up your local development environment using [Node](https://github.com/wragge/trove-lists-exhibition), [Grunt](http://gruntjs.com), and [AngularJS](https://angularjs.org). 
 
+## Limitations
 
+Because of the way forking works on GitHub, you can only fork a repository once into your own account. That means you can only create one exhibition.
+
+The easiest, but kludgiest, way around this is to create a new GitHub organisation, and then fork your second exhibition into your new organisation's account. To create a new organisation just click on the '+' sign at the top of the screen and choose 'New organisation'.
+
+If you're making lots of exhibitions you might want to install Git on your local computer. You'll then be able to make multiple exhibitions without fuss.
