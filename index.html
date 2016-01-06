@@ -56,7 +56,6 @@
         <p><small>This demonstration was created by <a href="http://discontents.com.au/about-me">Tim Sherratt</a> (<a href="http://twitter.com/wragge">@wragge</a>) to show how easy it is to create your own exhibition.</small></p>
       </div>
       <ul ng-hide="listHide" class="ng-hide" id="lists">
-        <!-- CHANGE THIS TO LIST THE TROVE LISTS THAT MAKE UP YOUR EXHIBITION -->
         <li><a class="list-link" href="http://trove.nla.gov.au/list?id=43805">A day in the life of Mr Mares, weatherman</a></li>
         <li><a class="list-link" href="http://trove.nla.gov.au/list?id=83777">Clement Wragge</a></li>
         <li><a class="list-link" href="http://trove.nla.gov.au/list?id=83774">Inigo Jones</a></li>
@@ -65,6 +64,7 @@
         // ADD YOUR TROVE API KEY
         var troveAPIKey = "";
         var config = {};
+        config.listSnippet = 50;
         config.directLinks = true;
         config.showGrid = false;
       </script>
@@ -95,6 +95,6 @@
 
     <script src="scripts/vendor.4b709218.js"></script>
 
-        <script src="scripts/scripts.2e626c36.js"></script>
+        <script src="scripts/scripts.8c152f6c.js"></script>
 </body>
 </html>
