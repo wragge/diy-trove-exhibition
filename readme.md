@@ -6,6 +6,11 @@ See a live exhibition using this repository here:
 
 http://wragge.github.io/forecasters-demo/
 
+Here are some exhibitions created by others:
+
+    * [Explore Canberra in Trove](http://treen42.github.io/Explore-Canberra-in-Trove/#/)
+    * [A tour of the Southern Highlands](http://catrionaexhibition.github.io/A-tour-of-the-Southern-Highlands/#/)
+
 Before you get started you'll need to have some Trove lists ready to provide the content for your exhibition. [Trove lists](http://help.nla.gov.au/trove/using-trove/creating-contributing/lists) are just collections of items found on Trove -- they're easy to create, manage, and edit.
 
 The demo above uses three lists:
