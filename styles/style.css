@@ -6,6 +6,15 @@
   margin: 5px;
   text-align: center;
 }
+
+.center-cropped-wall {
+  object-fit: scale-down;
+  object-position: center;
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+}
+
 .center-cropped-large {
   object-fit: scale-down;
   object-position: center;
@@ -16,6 +25,16 @@
 
 .center-cropped img {
     
+}
+
+.thumbnail:hover {
+  border: 1px solid #93c54b;
+}
+
+.wall {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 footer {
