@@ -156,12 +156,12 @@ Once that's done, just follow the following steps each time you want to create a
 6. In the terminal type `git remote add origin [your repository's url]` -- inserting the url you just copied. This will link the repository on your local machine with your new repository on GitHub.
 7. Type `git push -u origin gh-pages` -- this copies the repository on your local machine to GitHub.
 
-Now you have a choice, you can edit the files as described above in your new GitHub repository. Or you can use the text editor of your choice to modify the files on your local computer. If you edit them locally, you'll need to copy your modified files to GitHub to see your exhibition. At the terminal just type `git push gh-pages` -- easy!
+Now you have a choice, you can edit the files as described above in your new GitHub repository. Or you can use the text editor of your choice to modify the files on your local computer. If you edit them locally, you'll need to copy your modified files to GitHub to see your exhibition. At the terminal just type `git push origin gh-pages` -- easy!
 
 ## More examples
 
 Here are some exhibitions created by others:
 
-* 
+* [The Chinese in New South Wales: A history in pictures to 1940](http://baibi.github.io/chinese-in-nsw-in-pictures/#/) -- see [Kate Bagnall's blog post](http://chineseaustralia.org/building-a-diy-trove-list-exhibition/) describing how she created this exhibition.
 * [Explore Canberra in Trove](http://treen42.github.io/Explore-Canberra-in-Trove/#/)
 * [A tour of the Southern Highlands](http://catrionaexhibition.github.io/A-tour-of-the-Southern-Highlands/#/)
