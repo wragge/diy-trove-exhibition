@@ -137,11 +137,31 @@ Because of the way forking works on GitHub, you can only fork a repository once 
 
 The easiest, but kludgiest, way around this is to create a new GitHub organisation, and then fork your second exhibition into your new organisation's account. To create a new organisation just click on the '+' sign at the top of the screen and choose 'New organisation'.
 
-If you're making lots of exhibitions you might want to install Git on your local computer. You'll then be able to make multiple exhibitions without fuss.
+If you're making lots of exhibitions you probably want to install Git on your local computer and follow the instructions below.
+
+## Managing multiple exhibitions
+
+As noted above, you can only create one exhibition using GitHub by itself. Yes, you can a new organisation for every exhibition, but that's going to get messy quickly. Fortunately it's easy to set things up on your local computer so that you can create as many exhibitions as you want!
+
+The first step is to [install Git on your local computer](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+Once that's done, just follow the following steps each time you want to create a new exhibition:
+
+1. You'll need to [use the command line](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything), so fire up a terminal.
+2. On the command line type `git clone https://github.com/wragge/diy-trove-exhibition.git mynewexhibition` -- replacing 'mynewexhibition' with whatever you want. This command will create a directory called `mynewexhibition` and copy all the files from the DIY-Trove-Exhibition repository on GitHub into it.
+3. Type `cd mynewexhibition` to move to the new directory.
+4. Now you have to create a new repository in your own GitHub account. Just login to your account, click on the '+' button at the top of the page, and choose 'New repository'. Give your repository a name (probably the same as the directory you just created) and click the green 'Create repository' button.
+4. Go back to your terminal and type `git remote rename origin upstream` -- this changes the name of the link to the original repository.
+5. Now you need the address of your new repository. On your new repository's page you should see a url that starts with `https://github.com/` and ends in `.git` -- copy it.
+6. In the terminal type `git remote add origin [your repository's url]` -- inserting the url you just copied. This will link the repository on your local machine with your new repository on GitHub.
+7. Type `git push -u origin gh-pages` -- this copies the repository on your local machine to GitHub.
+
+Now you have a choice, you can edit the files as described above in your new GitHub repository. Or you can use the text editor of your choice to modify the files on your local computer. If you edit them locally, you'll need to copy your modified files to GitHub to see your exhibition. At the terminal just type `git push gh-pages` -- easy!
 
 ## More examples
 
 Here are some exhibitions created by others:
 
+* 
 * [Explore Canberra in Trove](http://treen42.github.io/Explore-Canberra-in-Trove/#/)
 * [A tour of the Southern Highlands](http://catrionaexhibition.github.io/A-tour-of-the-Southern-Highlands/#/)
