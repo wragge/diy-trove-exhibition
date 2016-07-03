@@ -158,6 +158,12 @@ Once that's done, just follow the following steps each time you want to create a
 
 Now you have a choice, you can edit the files as described above in your new GitHub repository. Or you can use the text editor of your choice to modify the files on your local computer. If you edit them locally, you'll need to copy your modified files to GitHub to see your exhibition. At the terminal just type `git push origin gh-pages` -- easy!
 
+## Using HTTPS
+
+On 15 June 2016, GitHub Pages started using https for all new repositories. For security reasons most browsers will block content in a https page that comes from non-https sources. Unfortunately, the Trove API is not available via https, so calls to the API will be blocked and the application will not load the list data. To get around this, I've created a [simple proxy server](https://trove-proxy.herokuapp.com/). The proxy server is available via https, so can receive the query, forward it on to the Trove API, and return the results to the exhibition. You shouldn't notice any difference in the way the application works.
+
+If, however, you're hosting your exhibition on a non-https server, you might want to make your requests directly to the Trove API. To do this, simply change the `https` configuration variable from `true` to `false`.
+
 ## More examples
 
 Here are some exhibitions created by others:
